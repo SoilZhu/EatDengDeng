@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-        if (score <= 49) return '立志成人🔞';
+    if (score <= 49) return '立志成人🔞';
     if (score <= 99) return '力求成才';
     if (score <= 149) return '邓邓喜欢你🥰';
     if (score <= 199) return '邓妈妈👩爱你😍';
